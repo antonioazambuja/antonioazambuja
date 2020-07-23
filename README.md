@@ -5,24 +5,32 @@
 #### I'm a Software Developer and DevOps Developer currently working AWS Cloud. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
 
 ```golang
-type MyTechSkill struct {
-    Languages     []string,
-    DevOpsTools   []string,
-    Architecture  []string,
-    Databases     []string,
-    Cloud         []string,
-    Observability []string,
+package main
 
+import "fmt"
+
+// MyTechSkill - overview about my technologies skills
+type MyTechSkill struct {
+	Languages     []string
+	DevOpsTools   []string
+	Architecture  []string
+	Databases     []string
+	Cloud         []string
+	Observability []string
 }
 
-antonioazambuja := make(&MyTechSkill{
-    Languages:     []string{"Golang", "Python3", "Java", "Bash", "C"},
-    DevOpsTools:   []string{"Terraform", "Ansible", "Packer", "Vagrant", "Docker", "Kubernetes", "Vault", "Jenkins", "Git", "Gitlab"},
-    Architecture:  []string{"Microservices", "TDD", "Cloud Native"},
-    Databases:     []string{"MySQL", "OracleDB", "SQL Server", "PostgreSQL", "MongoDB", "Redis", "DynamoDB"},
-    Cloud:         []string{"AWS"},
-    Observability: []string{"Prometheus", "Grafana"},
-})
+func main() {
+	antonioazambuja := &MyTechSkill{
+		Languages:     []string{"Golang", "Python3", "Java", "Bash", "C"},
+		DevOpsTools:   []string{"Terraform", "Ansible", "Packer", "Vagrant", "Docker", "Kubernetes", "Vault", "Jenkins", "Git", "Gitlab"},
+		Architecture:  []string{"Microservices", "TDD", "Cloud Native"},
+		Databases:     []string{"MySQL", "OracleDB", "SQL Server", "PostgreSQL", "MongoDB", "Redis", "DynamoDB"},
+		Cloud:         []string{"AWS"},
+		Observability: []string{"Prometheus", "Grafana"},
+	}
+	fmt.Println(antonioazambuja)
+}
+
 ```
 
 ## Find me around the web 🌎:
