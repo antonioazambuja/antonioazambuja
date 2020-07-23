@@ -2,7 +2,7 @@
 
 #### I'm a Software Developer and DevOps Developer currently working AWS Cloud. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
 
-<img align="right" src="img/blacktocat.png" alt="homer" width="250"/>
+<img align="right" src="https://github.githubassets.com/images/modules/about/diversity/blacktocat.png" alt="homer" width="250"/>
 
 ```golang
 package main
