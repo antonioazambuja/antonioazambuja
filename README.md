@@ -1,8 +1,8 @@
 ### Hi there, I'm Antonio Azambuja 👋
 
-<img align="right" src="blacktocat.png" alt="homer" width="250"/>
-
 #### I'm a Software Developer and DevOps Developer currently working AWS Cloud. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
+
+<img align="right" src="blacktocat.png" alt="homer" width="250"/>
 
 ```golang
 package main
