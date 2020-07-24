@@ -26,7 +26,7 @@ func main() {
 		Architecture:  []string{"Microservices", "TDD", "Cloud Native"},
 		Databases:     []string{"MySQL", "OracleDB", "SQL Server", "PostgreSQL", "MongoDB", "Redis", "DynamoDB"},
 		Cloud:         []string{"AWS"},
-		Observability: []string{"Prometheus", "Grafana"},
+		Observability: []string{"Prometheus", "Grafana", "ELK Stack"},
 	}
 	fmt.Println(antonioazambuja)
 }
