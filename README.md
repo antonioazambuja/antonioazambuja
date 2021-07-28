@@ -1,6 +1,6 @@
 ### Hi there, I'm Antonio Azambuja 👋
 
-#### I'm a Software Developer and DevOps Developer currently working AWS Cloud. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
+#### I'm a DevOps Engineer and Infrastructure Analyst currently working AWS Cloud with focus on Observability. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
 
 <img align="right" src="https://github.githubassets.com/images/modules/about/diversity/blacktocat.png" alt="homer" width="250"/>
 
