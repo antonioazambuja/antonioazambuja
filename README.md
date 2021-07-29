@@ -11,22 +11,26 @@ import "fmt"
 
 // MyTechSkill - overview about my technologies skills
 type MyTechSkill struct {
-	Languages     []string
-	DevOpsTools   []string
-	Architecture  []string
-	Databases     []string
-	Cloud         []string
-	Observability []string
+	Languages        []string
+	Container        []string
+	OtherDevOpsTools []string
+	IaC              []string
+	CICDTools        []string
+	Architecture     []string
+	Cloud            []string
+	Observability    []string
 }
 
 func main() {
 	antonioazambuja := &MyTechSkill{
-		Languages:     []string{"Golang", "Python3", "Java", "Bash", "C"},
-		DevOpsTools:   []string{"Terraform", "Ansible", "Packer", "Vagrant", "Docker", "Kubernetes", "Vault", "Jenkins", "Git", "Gitlab"},
-		Architecture:  []string{"Microservices", "TDD", "Cloud Native"},
-		Databases:     []string{"MySQL", "OracleDB", "SQL Server", "PostgreSQL", "MongoDB", "Redis", "DynamoDB"},
-		Cloud:         []string{"AWS"},
-		Observability: []string{"Prometheus", "Grafana", "ELK Stack"},
+		Languages:        []string{"Golang", "Python", "Java", "Shell"},
+		Container:        []string{"Docker", "Rancher", "Kubernetes"}
+		OtherDevOpsTools: []string{"Vagrant", "Git"},
+		IaC:              []string{"Terraform", "Ansible", "Packer", "Python"},
+		CICDTools:        []string{"Jenkins", "Gitlab"},
+		Architecture:     []string{"Microservices", "TDD", "Cloud Native"},
+		Cloud:            []string{"AWS"},
+		Observability:    []string{"Prometheus", "Grafana", "ELK Stack", "Dynatrace", "Thanos"},
 	}
 	fmt.Println(antonioazambuja)
 }
@@ -34,5 +38,5 @@ func main() {
 ```
 
 ## Find me around the web 🌎:
-- [Medium](https://medium.com/@antonioazambuja_)
+- [Medium](https://antonio-azambuja.medium.com)
 - [LinkedIn](https://www.linkedin.com/in/antonio-azambuja-64887a160/)
