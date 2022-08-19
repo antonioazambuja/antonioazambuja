@@ -1,6 +1,6 @@
 ### Hi there, I'm Antonio Azambuja 👋
 
-#### I'm a DevOps Engineer and Infrastructure Analyst currently working AWS Cloud with focus on Observability. My goal is to have multiple knowledge in Software Architecture and Infrastructure.
+#### I'm a DevOps Engineer currently working as an SRE at Pagbank Pagseguro.
 
 <img align="right" src="https://github.githubassets.com/images/modules/about/diversity/blacktocat.png" alt="homer" width="250"/>
 
@@ -9,28 +9,34 @@ package main
 
 import "fmt"
 
-// MyTechSkill - overview about my technologies skills
-type MyTechSkill struct {
-	Languages        []string
-	Container        []string
-	OtherDevOpsTools []string
-	IaC              []string
-	CICDTools        []string
-	Architecture     []string
-	Cloud            []string
-	Observability    []string
+// TechSkill - overview about my technologies skills
+type TechSkill struct {
+	ProgrammingLanguages []string
+	Containers           []string
+	DevOpsTools          []string
+	DevSecOps            []string
+	IaC                  []string
+	CICD                 []string
+	Architecture         []string
+	CloudProviders       []string
+	Observability        []string
+	Logging              []string
+	CDN                  []string
 }
 
 func main() {
-	antonioazambuja := &MyTechSkill{
-		Languages:        []string{"Golang", "Python", "Java", "Shell"},
-		Container:        []string{"Docker", "Rancher", "Kubernetes"}
-		OtherDevOpsTools: []string{"Vagrant", "Git"},
-		IaC:              []string{"Terraform", "Ansible", "Packer", "Python"},
-		CICDTools:        []string{"Jenkins", "Gitlab"},
-		Architecture:     []string{"Microservices", "TDD", "Cloud Native"},
-		Cloud:            []string{"AWS"},
-		Observability:    []string{"Prometheus", "Grafana", "ELK Stack", "Dynatrace", "Thanos"},
+	antonioazambuja := &TechSkill{
+		ProgrammingLanguages: []string{"Golang", "Python", "Java", "Shell"},
+		Containers:           []string{"Docker", "Kubernetes", "Mesos", "AWS ECS"}
+		DevOpsTools:          []string{"Vagrant", "Git", "Linux"},
+		DevSecOps:            []string{"Vault"},
+		IaC:                  []string{"Terraform", "Ansible", "Packer", "Python"},
+		CICD:                 []string{"Jenkins", "GitlabCI", "Atlantis"},
+		Architecture:         []string{"Microservices", "TDD", "Cloud Native"},
+		CloudProviders:       []string{"AWS"},
+		Observability:        []string{"Prometheus", "Grafana", "ELK Stack", "Dynatrace", "Thanos", "New Relic"},
+		Logging:              []string{"ELK Stack", "Splunk"},
+		CDN:                  []string{"Verizon"},
 	}
 	fmt.Println(antonioazambuja)
 }
