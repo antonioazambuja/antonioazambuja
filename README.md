@@ -27,7 +27,7 @@ type TechSkill struct {
 func main() {
 	antonioazambuja := &TechSkill{
 		ProgrammingLanguages: []string{"Golang", "Python", "Java", "Shell"},
-		Containers:           []string{"Docker", "Kubernetes", "Mesos", "AWS ECS"}
+		Containers:           []string{"Docker", "Kubernetes", "Mesos", "AWS ECS"},
 		DevOpsTools:          []string{"Vagrant", "Git", "Linux"},
 		DevSecOps:            []string{"Vault"},
 		IaC:                  []string{"Terraform", "Ansible", "Packer", "Python"},
