@@ -1,6 +1,6 @@
 ### Hi there, I'm Antonio Azambuja 👋
 
-#### I'm a DevOps Engineer currently working as an SRE at Pagbank Pagseguro.
+#### I'm a Site Reliability Engineer/DevOps Engineer.
 
 <img align="right" src="https://github.githubassets.com/images/modules/about/diversity/blacktocat.png" alt="homer" width="250"/>
 
@@ -27,7 +27,7 @@ type TechSkill struct {
 func main() {
 	antonioazambuja := &TechSkill{
 		ProgrammingLanguages: []string{"Golang", "Python", "Java", "Shell"},
-		Containers:           []string{"Docker", "Kubernetes", "Mesos", "AWS ECS"},
+		Containers:           []string{"Docker", "Kubernetes", "AWS ECS", "AWS EKS"},
 		DevOpsTools:          []string{"Vagrant", "Git", "Linux"},
 		DevSecOps:            []string{"Vault"},
 		IaC:                  []string{"Terraform", "Ansible", "Packer", "Python"},
