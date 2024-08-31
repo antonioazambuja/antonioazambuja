@@ -11,7 +11,7 @@ import "fmt"
 
 // TechSkill - overview about my technologies skills
 type TechSkill struct {
-	Languages			 []string
+	Languages            []string
 	Containers           []string
 	DevOpsTools          []string
 	DevSecOps            []string
@@ -26,9 +26,8 @@ type TechSkill struct {
 
 func main() {
 	antonioazambuja := &TechSkill{
-		Languages:			  []string{"Golang", "Python", "Java", "Shell"},
+		Languages:            []string{"Golang", "Python", "Java", "Shell"},
 		Containers:           []string{"Docker", "Kubernetes", "AWS ECS", "AWS EKS"},
-		OS:		              []string{"Git", "Linux"},
 		DevSecOps:            []string{"Vault", "Kyverno"},
 		IaC:                  []string{"Terraform", "Ansible", "Packer", "Python"},
 		CICD:                 []string{"Jenkins", "Github Actions"},
