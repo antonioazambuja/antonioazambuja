@@ -1,8 +1,8 @@
-### Hi there, I'm Antonio Azambuja 👋
+# Antonio Azambuja - @ablackout3
 
-#### I'm a Site Reliability Engineer/DevOps Engineer.
+Hi there, I'm Antonio Azambuja a Site Reliability Engineer and DevOps Engineer working on a big brazilian company to ensure systems realibilty, resiliency and performance. I'm constructing my own career path ever with begineer's mindset to long life learning.
 
-<img align="right" src="https://github.githubassets.com/images/modules/about/diversity/blacktocat.png" alt="homer" width="250"/>
+Interested in working on Kubernetes, API's, containerization, monitoring, distributed systems, CI/CD, Platform Engineer, DevOps, SRE, System Perfomance and AWS.
 
 ```golang
 package main
@@ -11,7 +11,7 @@ import "fmt"
 
 // TechSkill - overview about my technologies skills
 type TechSkill struct {
-	ProgrammingLanguages []string
+	Languages			 []string
 	Containers           []string
 	DevOpsTools          []string
 	DevSecOps            []string
@@ -26,17 +26,18 @@ type TechSkill struct {
 
 func main() {
 	antonioazambuja := &TechSkill{
-		ProgrammingLanguages: []string{"Golang", "Python", "Java", "Shell"},
+		Languages:			  []string{"Golang", "Python", "Java", "Shell"},
 		Containers:           []string{"Docker", "Kubernetes", "AWS ECS", "AWS EKS"},
-		DevOpsTools:          []string{"Vagrant", "Git", "Linux"},
-		DevSecOps:            []string{"Vault"},
+		OS:		              []string{"Git", "Linux"},
+		DevSecOps:            []string{"Vault", "Kyverno"},
 		IaC:                  []string{"Terraform", "Ansible", "Packer", "Python"},
-		CICD:                 []string{"Jenkins", "GitlabCI", "Atlantis"},
+		CICD:                 []string{"Jenkins", "Github Actions"},
+		GitOps                []string{"ArgoCD", "GitlabCI", "Atlantis"},
 		Architecture:         []string{"Microservices", "TDD", "Cloud Native"},
 		CloudProviders:       []string{"AWS"},
-		Observability:        []string{"Prometheus", "Grafana", "ELK Stack", "Dynatrace", "Thanos", "New Relic"},
+		Observability:        []string{"OTEL", "Prometheus", "Grafana", "ELK Stack", "Dynatrace", "Thanos", "New Relic"},
 		Logging:              []string{"ELK Stack", "Splunk"},
-		CDN:                  []string{"Verizon"},
+		CDN:                  []string{"Verizon", "Cloudflare"},
 	}
 	fmt.Println(antonioazambuja)
 }
@@ -46,3 +47,4 @@ func main() {
 ## Find me around the web 🌎:
 - [Medium](https://antonio-azambuja.medium.com)
 - [LinkedIn](https://www.linkedin.com/in/antonio-azambuja-64887a160/)
+- [Linktree](https://linktr.ee/ablackout3)
